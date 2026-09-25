@@ -11,8 +11,8 @@ int main() {
     scanf("%d", &num2);
 
     printf("SOMA: %d\n", num1+num2);
-    printf("SUBTRAÇÃO: %d\n", num1-num2);
-    printf("MULTIPLICAÇÃO: %d\n", num1*num2);
+    printf("SUBTRACAO: %d\n", num1-num2);
+    printf("MULTIPLICACAO: %d\n", num1*num2);
 
     return 0;
 
