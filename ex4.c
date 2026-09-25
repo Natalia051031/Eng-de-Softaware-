@@ -3,12 +3,14 @@
 int main() {
     int idade;
 
-    if(idade > 18){
-        printf("Você é maior de idade");
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+
+    if(idade >= 18){
+        printf("Voce e maior de idade");
     } else {
-        printf("Você é menor de idade");
+        printf("Voce e menor de idade");
     }
 
     return 0;
-    
 }
