@@ -10,7 +10,7 @@ int main() {
     scanf("%f", &frequencia);
 
     if(media >= 6.0f && frequencia >= 75.0f) {
-        printf("Você foi aprovado!");
+        printf("Voce foi aprovado!");
     } else {
         printf("Reprovado");
     }
